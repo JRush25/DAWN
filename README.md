@@ -6,7 +6,7 @@
   * Joselyne Torres 
   * Enrique Yugcha
 ## Descripcion:
-  Biblioteca de juegos donde se podráa buscar información sobre videojuegos y calificarlos.
+  Biblioteca de juegos donde se podrá buscar información sobre videojuegos y calificarlos.
     
 ## Enlace al diseño: 
  * https://marvelapp.com/prototype/26c1cg66
