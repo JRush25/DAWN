@@ -5,9 +5,10 @@
   * Jose Jaramillo
   * Joselyne Torres 
   * Enrique Yugcha
+  
 ## Descripcion:
-  Biblioteca de juegos donde se podrá buscar información sobre videojuegos y calificarlos.
-    
+  Biblioteca de juegos de todas las plataformas, donde al clickear la imagen del juego que buscamos se mostrara toda la información de este con un trailer de este, también el usuario podrá calificar el juego basado en su experiencia.
+  
 ## Enlace al diseño: 
  * https://marvelapp.com/prototype/26c1cg66
  
