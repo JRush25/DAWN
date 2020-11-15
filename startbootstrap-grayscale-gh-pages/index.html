@@ -28,7 +28,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contáctanos</a></li>
                     </ul>
                 </div>
             </div>
@@ -110,10 +110,44 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
+                        <h2 class="text-white mb-5">Contáctanos llenando este formulario!</h2>
+                        <form class="form">
+                            <p class= "form-inline d-flex text-white">Nombres:
+                                <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" type="text" placeholder="Ingesa tus nombres..." />
+                            </p>
+                            
+                            <p class = "form-inline d-flex text-white">Email:
+                                <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Ingresa tu correo electronico..." />
+                            </p>
+
+                            <p class = "form-inline d-flex text-white">Fecha de nacimiento:
+                                <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputFecha" type="date" />
+                            </p>
+
+                            <p class = "form-inline d-flex text-white">Lugar de origen:
+                                <select class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputOrigen">
+                                    <option>Ecuador</option>
+                                    <option>Colombia</option>
+                                    <option>México</option>
+                                    <option>Perú</option>
+                                    <option>Guatemala</option>
+                                    <option>Estados Unidos</option>
+                                    <option>Paraguay</option>
+                                    <option>Uruguay</option>
+                                    <option>Brasil</option>
+                                    <option>Argentina</option>
+                                </select>
+                            </p>
+
+                            <p class = "form-inline d-flex text-white">Detalle:
+                                <textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputDetalle"></textarea>
+                            </p>
+
+
+
+                            
+
+                            <button class="btn btn-primary mx-auto" type="submit">Enviar</button>
                         </form>
                     </div>
                 </div>
