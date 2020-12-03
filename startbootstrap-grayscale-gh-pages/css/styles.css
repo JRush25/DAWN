@@ -10591,22 +10591,36 @@ div#texto1 {
     position: absolute;
     grid-area: soloyo1;
     text-align: justify;
-    width: 25%;
-    padding-top: 10px;
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 
 div#texto2 {
     position: absolute;
     grid-area: soloyo2;
     text-align: justify;
-    width: 25%;
-    padding-top: 10px;
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 35%;
 }
 
 div#texto3 {
     position: absolute;
     grid-area: soloyo3;
     text-align: justify;
-    width: 25%;
-    padding-top: 10px;
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
+p#titulo {
+    font-size: 150%;
+}
+
+p#descripcion {
+    font-size: 100%;
 }
