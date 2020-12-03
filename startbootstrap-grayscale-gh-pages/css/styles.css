@@ -10530,9 +10530,36 @@ ul#slider li#slider {
     border-spacing: 30%;
 }
 
-img#slider {
-    width: 50%;
+img.slider {
+    width: 55%;
     background-color: #000000;
+}
+
+li#slider1 {
+    text-align: left;
+    grid-template-areas: 'soloyo1';
+    display: grid;
+}
+
+img#slider1 {
+    margin-left: 10%;
+}
+
+li#slider2 {
+    float: center;
+    grid-template-areas: 'soloyo2';
+    display: grid;
+    text-align: center;
+}
+
+li#slider3 {
+    text-align: right;
+    grid-template-areas: 'soloyo3';
+    display: grid;
+}
+
+img#slider3 {
+    margin-right: 10%;
 }
 
 @keyframes cambio {
@@ -10560,8 +10587,25 @@ section#about {
     padding-top: 5px;
 }
 
-div#texto {
+div#texto1 {
     position: absolute;
+    grid-area: soloyo1;
+    text-align: justify;
+    width: 25%;
+    padding-top: 10px;
+}
+
+div#texto2 {
+    position: absolute;
+    grid-area: soloyo2;
+    text-align: justify;
+    width: 25%;
+    padding-top: 10px;
+}
+
+div#texto3 {
+    position: absolute;
+    grid-area: soloyo3;
     text-align: justify;
     width: 25%;
     padding-top: 10px;
