@@ -10624,3 +10624,19 @@ p#titulo {
 p#descripcion {
     font-size: 100%;
 }
+
+.ps2>img,.ps3>img{
+    margin: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+}
+
+#contenedor{
+    margin-left: 10%;
+}
+
+#juegos{
+    background: linear-gradient(to top, rgba(0, 255, 255, 0.63) 0%, rgba(42, 252, 105, 0.493) 85%, #000000 100%)
+}
