@@ -1,0 +1,62 @@
+[
+	{
+        "Plataforma":"PS2",
+        "Nombre":"Dragon Ball Z",
+        "src":"assets/juegos/ps2/dbz.jpg"
+    },
+    {
+        "Plataforma":"PS2",
+        "Nombre":"Street Warrior",
+        "src":"assets/juegos/ps2/streetwarrior.jpg"
+    },
+    {
+        "Plataforma":"PS2",
+        "Nombre":"Resident Evil 4",
+        "src":"assets/juegos/ps2/residentevil4.jpg"
+    },
+    {
+        "Plataforma":"PS2",
+        "Nombre":"Black",
+        "src":"assets/juegos/ps2/black.jpg"
+    },
+    {
+        "Plataforma":"PS2",
+        "Nombre":"Queen",
+        "src":"assets/juegos/ps2/queen.jpg"
+    },
+    {
+        "Plataforma":"PS2",
+        "Nombre":"Naruto Shippuden",
+        "src":"assets/juegos/ps2/narutoshippuden.jpg"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Border Lands",
+        "src":"assets/juegos/ps3/borderlands.png"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Dark Siders",
+        "src":"assets/juegos/ps3/darksiders.png"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Naughty Bear",
+        "src":"assets/juegos/ps3/naughtybear.png"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Kill Zone 2",
+        "src":"assets/juegos/ps3/killzone2.png"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Demon Souls",
+        "src":"assets/juegos/ps3/demonssouls.png"
+    },
+    {
+        "Plataforma":"PS3",
+        "Nombre":"Batman",
+        "src":"assets/juegos/ps3/batman.png"
+    }   
+]
