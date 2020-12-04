@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.1.0/introjs.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -29,12 +31,11 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Noticias</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#juegos">Juegos</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Buscador</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contáctanos</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../startbootstrap-sb-admin-2-gh-pages/login.html">Sesion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" id="step2">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#juegos" id="step3">Juegos</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="buscador.html" id="step4">Buscador</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="nosotros.html" id="step5">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup" id="step6">Contáctanos</a></li>
                 </ul>
             </div>
         </div>
@@ -44,7 +45,7 @@
     <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase text-white">Bienvenidos</h1>
+                <h1 class="mx-auto my-0 text-uppercase text-white" id="step1">Bienvenidos</h1>
                 <h2 class="text-white mx-auto mt-2 mb-5">En esta página encontraras el contenido más actualizado de videojuegos y animes</h2>
                 <a class="btn btn-primary js-scroll-trigger" href="#about">Ver Videojuegos</a>
             </div>
@@ -52,17 +53,6 @@
     </header>
     <!-- About-->
     <section class="about-section text-center" id="about">
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">God Of War Ragnarok</h2>
-                    <p class="text-white-50">
-                        Un viejo conocido como lo es Kratos, sigue manteniéndose como uno de los grandes favoritos en el mundo de los videojuegos y lo ha demostrado con su gran acogida durante su llegada al PS4. Actulamente se espera su llegada a PS5, donde solo se sabe su título,
-                        God Of War: Ragnarok, que narrará la continuación su aventura su hijo Loki y un posible enfrentamiento con Thor.
-                    </p>
-                </div>
-                <img class="img-fluid" src="assets/img/ragnarok.jpeg" alt="" />
-            </div> -->
         <div class="slider">
             <ul id="slider">
                 <li class="slider" id="slider1"><img class="slider" id="slider1" src="assets/img/ragnarok.jpeg" alt="">
@@ -79,53 +69,7 @@
     </section>
     <!-- Juegos-->
     <section class="projects-section bg-light" id="juegos">
-        <div class="container">
-            <h1>Play Station 2</h1>
-            <div class="row">
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/dbz.jpg" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/streetwarrior.jpg" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/residentevil4.jpg" width=300px height=400px></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/black.jpg" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/queen.jpg" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps2/narutoshippuden.jpg" width=300px height=400px></p>
-                </div>
-            </div>
-            <h1>Play Station 3</h1>
-            <div class="row">
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/borderlands.png" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/darksiders.png" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/naughtybear.png" width=300px height=400px></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/killzone2.png" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/demonssouls.png" width=300px height=400px></p>
-                </div>
-                <div class="col">
-                    <p><img src="assets/juegos/ps3/batman.png" width=300px height=400px></p>
-                </div>
-            </div>
+        <div id="contenedor" class="container">
         </div>
     </section>
     <!-- Signup-->
@@ -231,6 +175,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.1.0/intro.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/readdata.js"></script>
 </body>
 
 </html>

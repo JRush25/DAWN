@@ -11688,7 +11688,9 @@ body.sidebar-toggled footer.sticky-footer {
     background: #000;
 }
 
-.form-outer form .page .btns button {}
+.form-outer form .page .btns button {
+    margin-right: 3px;
+}
 
 form .page .btns button .prev {
     margin-right: 3px;
