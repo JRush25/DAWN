@@ -10595,6 +10595,7 @@ div#texto1 {
     height: 40%;
     margin-top: 10%;
     margin-left: 20%;
+    background-color: #000000c4;
 }
 
 div#texto2 {
@@ -10605,6 +10606,7 @@ div#texto2 {
     height: 40%;
     margin-top: 10%;
     margin-left: 35%;
+    background-color: #000000c4;
 }
 
 div#texto3 {
@@ -10615,12 +10617,17 @@ div#texto3 {
     height: 40%;
     margin-top: 10%;
     margin-left: 50%;
+    background-color: #000000c4;
 }
 
 p#titulo {
     font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 p#descripcion {
     font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
