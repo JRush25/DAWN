@@ -1,5 +1,5 @@
 let datosJSON = () => {
-    fetch('datos.json')
+    fetch('http://localhost:3000/juegos')
     .then((resultado) => {
         return resultado.json()
     })  
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function myFunction() {
-    var input, filter, contenedor, img, i, j, visible;
+    var input, filter, contenedor, img, i, visible;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     contenedor = document.getElementById("contenedor");
