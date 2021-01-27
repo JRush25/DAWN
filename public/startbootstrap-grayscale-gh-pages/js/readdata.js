@@ -1,5 +1,5 @@
 let datosJSON = () => {
-    fetch('http://localhost:3000/juegos')
+    fetch('http://localhost:3000/videojuego')
     .then((resultado) => {
         return resultado.json()
     })  
@@ -13,11 +13,11 @@ let datosJSON = () => {
 
         for(var i=0; i < json.length;i++){
             let img = document.createElement("img")
-            img.id = json[i].Nombre
-            img.src = json[i].src
-            if(json[i].Plataforma == "PS2")
+            img.id = json[i].nombre
+            img.src = json[i].portada
+            if(json[i].plataforma == "PS2")
                 divPS2.appendChild(img)
-            else if(json[i].Plataforma == "PS3")
+            else if(json[i].plataforma == "PS3")
                 divPS3.appendChild(img)
         }
         let h1n1 = document.createElement("h1")

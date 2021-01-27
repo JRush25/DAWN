@@ -4,7 +4,7 @@
   "description": "* Kevin Cevallos\r   * Jose Jaramillo\r   * Joselyne Torres \r   * Enrique Yugcha",
   "main": "",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,16 @@
   },
   "homepage": "https://github.com/JRush25/DAWN#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "debug": "^4.3.1",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.4.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",

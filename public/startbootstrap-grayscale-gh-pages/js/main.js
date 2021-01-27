@@ -23,7 +23,7 @@ intro.setOptions({
         },
         {
             element: '#step6',
-            intro: 'Envíanos tus mensajes o suegerencias'
+            intro: 'Envíanos tus mensajes o sugerencias'
         }
     ]
 })
